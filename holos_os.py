@@ -8,6 +8,14 @@ class TechnologicalFieldsTheory:
     def set_parameter(self, parameter_index, value):
         # Set the value of a specific TFTpsp parameter
         self.tftpsp[parameter_index] = value
+        
+    def map_technological_context(self, problem):
+        # Implement the mapping of the technological context
+        # You could perform a web search here for relevant technologies
+        pass
+
+    def map_problem_sources(self, problem):
+        # Impl
 
     def apply_parameter(self, parameter_index, data):
         # Apply the TFTpsp parameter based on the index
