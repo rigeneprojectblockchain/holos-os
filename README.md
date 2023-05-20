@@ -41,32 +41,24 @@ That information provides more in-depth details about the TFTpsp and their imple
 
 Each TFTpsp can be implemented in your Python code as a function within the TechnologicalFieldsTheory class. For example:
 
-- **Mapping of Technological Context:** This function should take a problem as input and return a list of potential technologies that could be used to solve the problem.
+Mapping of Problem Sources and Cause-Effect Relationships: This function should take a problem as input and return a map of the causes and effects that are relevant to the problem.
+python
 
-```python
-def map_technological_context(self, problem):
-    # Your code here to map the technological context
-    pass
-
-  Mapping of Problem Sources and Cause-Effect Relationships: This function should take a problem as input and return a map of the causes and effects that are relevant to the problem.
-  
-  def map_problem_sources(self, problem):
+def map_problem_sources(self, problem):
     # Your code here to map problem sources and cause-effect relationships
     pass
+Evaluation of Social and Economic Impacts of Proposed Solutions: This function should take a proposed solution as input and return an estimate of the benefits and costs of that solution.
+python
 
-  Evaluation of Social and Economic Impacts of Proposed Solutions: This function should take a proposed solution as input and return an estimate of the benefits and costs of that solution.
-  
-  def evaluate_solution_impact(self, solution):
+def evaluate_solution_impact(self, solution):
     # Your code here to evaluate the social and economic impact of a proposed solution
     pass
+Defining the Implementation and Dissemination of Innovative Solutions: This function should take a solution as input and return a plan for the implementation and dissemination of the solution.
+python
 
-  Defining the Implementation and Dissemination of Innovative Solutions: This function should take a solution as input and return a plan for the implementation and dissemination of the solution.
-  
-  def define_solution_dissemination(self, solution):
+def define_solution_dissemination(self, solution):
     # Your code here to define the implementation and dissemination of an innovative solution
     pass
-
-  When it comes to loading your data, problems, and feedback, you might need separate functions or methods that read this data from JSON, XML files, or from an MQTT broker, depending on your specific use case.
+When it comes to loading your data, problems, and feedback, you might need separate functions or methods that read this data from JSON, XML files, or from an MQTT broker, depending on your specific use case.
 
 Please note that these functions are just starting points, and you will need to write specific code to perform each of these tasks based on the details of your project.
-
