@@ -46,7 +46,7 @@ Each TFTpsp can be implemented in your Python code as a function within the Tech
 ```python
 def map_technological_context(self, problem):
     # Your code here to map the technological context
-    pass```
+    pass```python
 
 - **Mapping of Problem Sources and Cause-Effect Relationships:** This function should take a problem as input and return a map of the causes and effects that are relevant to the problem.
 
